@@ -1,13 +1,18 @@
-def my_function():
+def sayHello():
     print ("Hallo von einem Funktion")
-my_function()
-def meine_funktion(firstname):
+
+def say_name(firstname):
     print (firstname+" Mohammed")
-meine_funktion ("Cristiano_Ronaldo")           
-meine_funktion("Messi")
-meine_funktion("Neymar")
+
 def siuu_funtion(firstname,endname):
-    print(firstname + " "+ endname)
-siuu_funtion("Greg","Freg")   
+    print(firstname + endname)
+
+sayHello()
+
+say_name ("Cristiano_Ronaldo")           
+say_name("Messi")
+say_name("Neymar")
+
+siuu_funtion("Moataz"," mohammed")   
 
   

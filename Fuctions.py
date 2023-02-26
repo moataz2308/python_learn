@@ -10,6 +10,4 @@ def siuu_funtion(firstname,endname):
     print(firstname + " "+ endname)
 siuu_funtion("Greg","Freg")   
 
-def siuu_funtion2(firstname,endname):
-    print(firstname + " "+ endname)
-siuu_funtion("Greg","Freg")   
+  

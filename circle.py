@@ -12,4 +12,6 @@ x.color('black')
 x.circle(50)
 x.forward(60)
 x.color('red')
-
+x.circle(50)
+x.forward(60)
+screen.exitonclick()

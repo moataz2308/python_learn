@@ -10,7 +10,7 @@ user_name=Entry(window,bg="green",width=20,font="arial")
 user_name.pack()
 def printName_age():
     uName=user_name.get()
-    ubyear=u_byear.get()
+    ubyear=ubyear.get()
     age=2023-int(ubyear)
     user_name.set("welcome " +uName+" your age is ") 
     user_age.set(age)

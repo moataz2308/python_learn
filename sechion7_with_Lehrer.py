@@ -30,16 +30,17 @@ def button_add():
 def button_equal():
     second_number=e.get()
     e.delete(0,END)
-    if math=="addition":
+
+if     math=="addition":
     e.insert(0,f_num+int(second_number))
 
-    if math=="subtrahieren":
+if     math=="subtrahieren":
     e.insert(0,f_num-int(second_number))
 
-    if math=="multiplikation":
+if     math=="multiplikation":
     e.insert(0,f_num*int(second_number))
 
-    if math=="division":
+if     math=="division":
     e.insert(0,f_num/int(second_number))
 
 

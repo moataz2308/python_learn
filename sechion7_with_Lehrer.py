@@ -26,31 +26,11 @@ def button_add():
     f_num=int(first_number)
     e.delete(0,END)
 
-
-def button_equal():
-    second_number=e.get()
-    e.delete(0,END)
-
-if     math=="addition":
-    e.insert(0,f_num+int(second_number))
-
-if     math=="subtrahieren":
-    e.insert(0,f_num-int(second_number))
-
-if     math=="multiplikation":
-    e.insert(0,f_num*int(second_number))
-
-if     math=="division":
-    e.insert(0,f_num/int(second_number))
-
-
-
-
 def button_subtract():
     first_number= e.get()
     global f_num
     global math
-    math="subtrahieren"
+    math="Subtract"
     f_num=int(first_number)
     e.delete(0,END)
     
@@ -58,23 +38,34 @@ def button_multiply():
     first_number= e.get()
     global f_num
     global math
-    math="Multiplikation"
+    math="Multiplication"
     f_num=int(first_number)
     e.delete(0,END)
-    
-
-
-
 
 def button_divide():
     first_number= e.get()
     global f_num
     global math
-    math="dividieren"
+    math="Division"
     f_num=int(first_number)
     e.delete(0,END)
-          
 
+
+def button_equal():
+    second_number=e.get()
+    e.delete(0,END)
+
+    if     math=="Addition":
+        e.insert(0,f_num+int(second_number))
+
+    if     math=="Subtract":
+        e.insert(0,f_num-int(second_number))
+
+    if     math=="Multiplication":
+        e.insert(0,f_num*int(second_number))
+
+    if     math=="Division":
+        e.insert(0,f_num/int(second_number))
 
     
 button_1=Button(root,text="1",padx=40,pady=20,command=lambda: button_click(1))

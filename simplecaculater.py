@@ -1,10 +1,10 @@
 from tkinter import*
 root=Tk()
 root.title("simple calculater")
+root.iconbitmap('/Users/passant/Moataz/game-boy.ico')
+
 e=Entry(root,width=35,borderwidth=5)
 e.grid(row=0,column=0,columnspan=3,padx=10,pady=10)
-
-
 
 
 def button_click(number):
@@ -31,16 +31,16 @@ def button_equal():
     second_number=e.get()
     e.delete(0,END)
     if math=="addition":
-    e.insert(0,f_num+int(second_number))
+     e.insert(0,f_num+int(second_number))
 
     if math=="subtrahieren":
-    e.insert(0,f_num-int(second_number))
+     e.insert(0,f_num-int(second_number))
 
     if math=="multiplikation":
-    e.insert(0,f_num*int(second_number))
+     e.insert(0,f_num*int(second_number))
 
     if math=="division":
-    e.insert(0,f_num/int(second_number))
+     e.insert(0,f_num/int(second_number))
 
 
 

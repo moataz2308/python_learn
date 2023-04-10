@@ -13,7 +13,4 @@ button_quit=Button(root,text="exit programm",command=root.quit)
 button_quit.pack()
 
 
-
-
-
 root.mainloop

@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0,0,0,0.6);
+}
+
+div.Maincontent{
+    background-image: url('images/feuer.jpg');
+    height: 680px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+div.navbar a{
+    color: aqua;
+    margin: -150px;
+
+}
+div.navbar a.join{
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid aqua;
+
+
+}
+div.details{
+    padding-top: 150px;
+    text-align: center;
+    color: aqua;
+}
+div.details button{
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid aqua;
+    background-color: black;
+    color: aqua;
+
+}
+
+div.maingame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    color: aqua;
+    padding: 50px;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+div.maingame button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    color: aqua;
+    border: none;
+}
+div.maingame img{
+    margin-right: -100px;
+    border-radius: 50px;
+
+}
+div.postcontent{
+    justify-content: center;
+    text-align: center;
+}
+
+div.posts{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+div.post{
+    margin: 25px;
+
+}
+div.post div.img{
+   background-image: url('images/vbucks.png');
+   height: 150px;
+   background-position: center;
+   background-size: cover;
+
+}
+div.pricing{
+    justify-content: center;
+    text-align: center;
+
+}
+div.price{
+    width: 30%;
+    background-color: black;
+    color: aqua;
+    margin: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+div.price button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: black;
+    color: aqua;
+    border: 1px solid white;
+}
+div.planprice{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.planprice h3{
+    margin: 0px;
+}
+div.joinform{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+div.image{
+    width: 35%;
+
+}
+div.joinform form{
+    width: 65%;
+}
+div.image{
+    background-image: url('images/ball.emojie.png');
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+div.Form  button{
+    padding: 10px;
+    font-size:16px;
+    border:1px solid cadetblue;
+    border-radius:5px;
+    display:block;
+    margin:10px;
+}
+ div.Form{
+    width:60%;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    padding-top:100px;
+}
+
+
+
+
+
